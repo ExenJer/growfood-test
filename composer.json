@@ -1,0 +1,25 @@
+{
+    "name": "exrs/growfood",
+    "authors": [
+        {
+            "name": "Danil",
+            "email": "exenjers@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Exrs\\Pricer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "require": {
+        "ext-json": "*"
+    }
+}
